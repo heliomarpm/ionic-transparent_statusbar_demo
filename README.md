@@ -1,12 +1,12 @@
-# IONIC 4+ - StatusBar Transparent Demo
+# IONIC 3+ - Transparent StatusBar Demo
 
-Small demo of how to make status bar transparent using ionic 3, 4, 5, 6
+Small demo of how to make transparent status bar using ionic 3, 4, 5, 6
 
 ![Screenshot](https://github.com/heliomarpm/screenshots/blob/main/screenshot-ionic-demo-statusbar-transparent.png?raw=true)
 
 ## Get started
 
-* Clone this repository:  `git@github.com:heliomarpm/ionic-demo-statusbar-transparent.git`
+* Clone this repository:  `git@github.com:heliomarpm/ionic-transparent-statusbar-demo.git`
 * Run `npm install` from the project root.
 * Run `ionic serve` in a terminal from the project root.
 
