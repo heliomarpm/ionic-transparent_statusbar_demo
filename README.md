@@ -8,7 +8,7 @@ Small demo of how to make transparent status bar using ionic 3, 4, 5, 6
 
 * Clone this repository:  `git@github.com:heliomarpm/ionic-transparent-statusbar-demo.git`
 * Run `npm install` from the project root.
-* Run `ionic serve` in a terminal from the project root.
+* Run `ionic cordova run android` in a terminal from the project root.
 
 ## Transparent statusBar for android
 
