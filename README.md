@@ -22,11 +22,13 @@ Small demo of how to make transparent status bar using ionic 3, 4, 5, 6
 import android.os.Build;
 import android.view.View;
 
-...
-// enable transparent
-if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-  getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
-}
+    ...
+    // enable transparent statusbar
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+        getWindow().getDecorView().setSystemUiVisibility(
+            View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+        );
+    }
 
 ```
 
