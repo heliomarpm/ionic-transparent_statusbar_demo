@@ -1,0 +1,7 @@
+{
+  "name": "ionic-demo-statusbar-transparent",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
