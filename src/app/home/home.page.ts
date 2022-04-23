@@ -7,6 +7,10 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  public titleColor: string = "danger";
   constructor() {}
 
+  changeTitleColor(color: string) {
+    this.titleColor = color;
+  }
 }
