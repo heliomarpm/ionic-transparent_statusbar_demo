@@ -13,7 +13,7 @@ Small demo of how to make transparent status bar using ionic 3, 4, 5, 6
 ## Transparent statusBar for android
 
 * Run `ionic cordova platform add android` in a terminal
-* On `MainActivity.java` file on Android platform folder`platforms/android/app/src/java/io/starter/MainActivity.java`, paste the following code after `super.onCreate(...)`
+* On `MainActivity.java` file on Android platform folder`platforms/android/app/src/java/.../MainActivity.java`, paste the following code after `super.onCreate(...)`
 
 ```java
 ...
