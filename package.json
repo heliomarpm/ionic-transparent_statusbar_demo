@@ -1,15 +1,16 @@
 {
   "name": "ionic-transparent-statusbar-demo",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "author": "Heliomar P. Marques",
+  "homepage": "https://qualita.app/",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ionic s",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "debug": "ionic cordova run android -l"
   },
   "private": true,
   "dependencies": {
