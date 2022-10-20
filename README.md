@@ -13,7 +13,7 @@ Small demo of how to make transparent status bar using ionic 3, 4, 5, 6
 ## Transparent statusBar for android
 
 * Run `ionic cordova platform add android` in a terminal
-* On `MainActivity.java` file on Android platform folder`platforms/android/app/src/java/.../MainActivity.java`, paste the following code after `super.onCreate(...)`
+* On `MainActivity.java` file on Android platform folder`platforms/android/app/src/main/java/.../MainActivity.java`, paste the following code after `super.onCreate(...)`
 
 ```java
 ...
@@ -60,4 +60,29 @@ imports [
 ]
 ```
 
+`MainActivity.java` full file after changes.
+```java
+package io.ionic.starter;
+
+import android.os.Bundle;
+import org.apache.cordova.*;
+
+public class MainActivity extends CordovaActivity
+{
+    @Override
+    public void onCreate(Bundle savedInstanceState)
+    {
+        super.onCreate(savedInstanceState);
+
+        // enable Cordova apps to be started in the background
+        Bundle extras = getIntent().getExtras();
+        if (extras != null && extras.getBoolean("cdvStartInBackground", false)) {
+            moveTaskToBack(true);
+        }
+
+        // Set by <content src="index.html" /> in config.xml
+        loadUrl(launchUrl);
+    }
+}
+```
 Credits for `https://github.com/jeneser/ionic-super-bar.git`
