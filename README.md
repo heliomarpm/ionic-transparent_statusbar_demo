@@ -1,4 +1,4 @@
-# IONIC 3+ - Transparent StatusBar Demo
+# IONIC 3+ Transparent StatusBar Demo
 
 Small demo of how to make transparent status bar using ionic 3, 4, 5, 6
 
